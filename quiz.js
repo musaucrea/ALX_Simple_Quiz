@@ -2,7 +2,7 @@ function checkAnswer() {
     // Correct answer
     const correctAnswer = "4";
 
-    // Retrieve the user's answer
+    // get the user's answer
     const selectedOption = document.querySelector('input[name="quiz"]:checked');
     let userAnswer;
     if (selectedOption) {
